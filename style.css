@@ -1,0 +1,77 @@
+* {
+    font-family: monospace;
+}
+
+#block{
+    background-color: rgb(59, 59, 77);
+    margin: -8px;
+    padding: 6px;
+}
+
+#block > *{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+
+.header{
+    display: flex;
+    background-color: rgb(59, 59, 77);
+    justify-content: space-between;
+    align-content: center;
+    gap: 100px;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+}
+.logo > img{
+    height: 40px;
+    align-self: center;
+}
+
+#logo_title{
+    margin-left: 20px;
+    color: white;
+    font-size: 18px;
+}
+
+.directory{
+    margin-right: 10px;
+    display: flex;
+    align-self: center;
+    margin-left: auto;
+    gap: 10px;
+    flex-wrap: wrap;
+    font-size: 80%;
+}
+
+
+a:link{
+    color: white;
+    text-decoration: none;
+}
+
+a:visited{
+    color:white;
+}
+
+.start{
+    margin-top: 100px;
+    display: flex;
+    gap: 100px;
+    justify-content: space-between;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    align-content: flex-end;
+    color: white;
+}
+
+#main_header{
+    font-size: 300%;
+}
+
